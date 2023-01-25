@@ -1,0 +1,50 @@
+@media (max-width:375px){
+    body{
+        margin-top: -90px;
+        width:375px;
+        height: 1000px;
+        background-image: url("./images/bg-intro-mobile.png");
+        background-repeat: no-repeat;
+    }
+    .main{
+        width:90%;
+        margin-bottom: 70px;
+    }
+    .left{
+        width:100%;
+        height:auto;
+        text-align: center;
+    }
+    .left .para{
+        width:95%;
+        margin: auto;
+    }
+    .right{
+        width:100%;
+        margin-top: 65px;
+    }
+    .right .heading{
+        height:90px;
+        padding-right:75px;
+        padding-left: 75px;
+        display: inline-block;
+        line-height: 25px;
+    }
+    .right form .value{
+        width:100%;
+        margin-bottom:15px;
+    }
+    .right .form p{
+        text-align: center;
+    }
+    .right form input{
+        width:100%;
+        margin-bottom:0;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .right .submit{
+        width:100%;
+        margin-bottom:15px;
+    }
+}

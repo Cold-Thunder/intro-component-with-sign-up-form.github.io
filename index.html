@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="mobile.css" type="text/css">
+    <link rel="stylesheet" href="action.css" type="text/css">
+    <title>Frontend Mentor</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="left">
+            <div class="heading">
+                <h1>Learn to code by<br>watching others</h1>
+            </div>
+            <div class="para">
+                <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+                    understading how developers think is invaluable.</p>
+            </div>
+        </div>
+
+        <div class="right">
+            <button class="heading" onclick="window.open('#')">
+                <b style="margin-right:5px">Try it free 7 days</b>then $20/mo. thereafter</h2>
+            </button>
+            <div class="form">
+                <form method="POST">
+                    <div class="value" id="value">
+                        <input id="input" class="in" type="text" placeholder="First Name" required>
+                        <span id="action" class="firstError"> </span>
+                    </div>
+                    <div class="value" id="value">
+                        <input id="input" class="in" type="text" placeholder="Last Name" required>
+                        <span id="action" class="lastError"> </sp>
+                    </div>
+                    <div class="value" id="value">
+                        <input id="input" class="in" class="email" type="email" placeholder="Email Address" name="email" required>
+                        <span id="action" class="emailError"> </span>
+                    </div>
+                    <div class="value" id="value">
+                        <input id="input" class="in" type="password" placeholder="Password" name="password" required>
+                        <span id="action" class="passwordError"> </span>
+                    </div>
+
+                    <button class="submit" type="submit" target="_blank">CLAIM YOUR FREE TRIAL</button>
+                    <p>By clicking the button, you are agreeing to our <b
+                            style="color:hsl(0, 100%, 74%); cursor:pointer;" onclick="window.open('#')">Terms and
+                            Services</b></p>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
