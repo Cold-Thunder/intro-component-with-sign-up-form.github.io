@@ -41,8 +41,8 @@ main{
     /* background-color: red; */
 }
 .left h1{
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 50px;
+    line-height: 50px;
 }
 .left p{
     font-size:16px;
@@ -103,6 +103,7 @@ main{
     padding-left:30px;
     padding-right:30px;
     box-sizing: border-box;
+    border:1px solid rgb(0,0,0, 0.1);
 }
 .right form input:focus{
     outline:none !important;
